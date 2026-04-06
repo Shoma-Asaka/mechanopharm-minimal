@@ -7,7 +7,7 @@ authors:
   - family-names: "Asaka"
     given-names: "Shoma"
     affiliation: "Faculty of Medical Sciences, University of Fukui"
-repository-code: "https://github.com/USERNAME/mechanopharm-minimal"
+repository-code: "https://github.com/Shoma-Asaka/mechanopharm-minimal"
 license: "MIT"
 preferred-citation:
   type: manuscript
