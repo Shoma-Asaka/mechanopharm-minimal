@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying manuscript or preprint as the primary scholarly reference. After journal publication, update the citation to the final published article."
+title: "mechanopharm-minimal"
+abstract: "Minimal reference implementation of a theoretical framework for mechanopharmacology, including two-state and three-state adaptive-protection models and response-landscape analysis utilities."
+type: software
+authors:
+  - family-names: "Asaka"
+    given-names: "Shoma"
+    affiliation: "Faculty of Medical Sciences, University of Fukui"
+repository-code: "https://github.com/USERNAME/mechanopharm-minimal"
+license: "MIT"
+preferred-citation:
+  type: manuscript
+  authors:
+    - family-names: "Asaka"
+      given-names: "Shoma"
+  title: "A Theoretical State-Dynamics Framework for Mechanopharmacology: Response Landscapes in Concentration, Mechanics, and Time"
+  year: 2026
+  notes: "Accompanying manuscript or preprint. Replace with a preprint DOI when available, and update to the final published article after acceptance."

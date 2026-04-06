@@ -1,0 +1,11 @@
+Release checklist
+
+1. Replace the placeholder GitHub URL in CITATION.cff.
+2. Confirm README matches the actual repository contents.
+3. Run `python examples/demo_minimal.py` from a clean environment.
+4. Run `pytest` and confirm the smoke tests pass.
+5. Create the submission tag, for example `v0.1.0`.
+6. Archive that release with Zenodo and obtain a DOI.
+7. Insert [URL], [DOI], and [VERSION] into the manuscript code-availability statement.
+8. If a preprint is posted later, update CITATION.cff with the preprint DOI.
+9. After journal publication, update CITATION.cff so the preferred citation becomes the final published article.

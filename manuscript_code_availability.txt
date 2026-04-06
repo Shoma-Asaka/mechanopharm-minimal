@@ -1,0 +1,14 @@
+Suggested manuscript wording
+============================
+
+Code availability
+A minimal reference implementation reproducing the two-state and three-state
+analyses, together with example routines for extracting response-landscape
+fingerprints from experimental data, is available in the public repository
+[REPOSITORY_LINK].
+
+Repository short description
+This repository provides a minimal reproducible implementation of the theoretical
+framework developed in the manuscript. It is intended as a reference
+implementation and proof-of-concept analysis toolkit rather than as a universal,
+platform-specific fitting package.

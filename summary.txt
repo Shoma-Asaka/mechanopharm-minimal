@@ -1,0 +1,34 @@
+mechanopharm-minimal demo summary
+================================
+
+Two-state model
+Predicted reversal concentration: 0.8889
+Estimated mean EC50 at lowest m: 0.7570
+Estimated mean EC50 at highest m: 0.8464
+Mechanical sign reversal detected: True
+Low-c mean slope wrt m: 0.1215
+High-c mean slope wrt m: -0.0661
+
+Three-state model
+Optimal load at c=0.5: 0.5400
+Optimal load at c=1.0: 0.7800
+Optimal load at c=1.5: 1.0200
+
+Peak metrics from selected time courses
+c=0.50, m=0.30, peak=0.2259, t_peak=2.1369
+c=0.50, m=0.80, peak=0.1863, t_peak=2.0701
+c=0.50, m=1.30, peak=0.1003, t_peak=1.8698
+c=1.00, m=0.30, peak=0.1656, t_peak=2.1035
+c=1.00, m=0.80, peak=0.2689, t_peak=2.0701
+c=1.00, m=1.30, peak=0.1159, t_peak=1.9366
+c=1.50, m=0.30, peak=0.1567, t_peak=2.1035
+c=1.50, m=0.80, peak=0.2240, t_peak=2.1035
+c=1.50, m=1.30, peak=0.1696, t_peak=2.0033
+
+Optimal load path extracted from steady three-state landscape
+c=0.000, m_opt=0.302
+c=0.335, m_opt=0.458
+c=0.670, m_opt=0.626
+c=1.006, m_opt=0.782
+c=1.341, m_opt=0.939
+c=1.676, m_opt=1.106
