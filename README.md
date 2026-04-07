@@ -89,7 +89,7 @@ requirements.txt
 
 This code is intended to accompany the manuscript:
 
-**A Theoretical State-Dynamics Framework for Mechanopharmacology: Response Landscapes in Concentration, Mechanics, and Time**
+**A Thermodynamically Constrained Minimal Theory of Mechanopharmacology**
 
 Suggested figure-to-code mapping:
 - **Two-state analysis** → `mechanopharm_minimal/models.py`
@@ -100,9 +100,10 @@ Suggested figure-to-code mapping:
 
 ## Citation
 
-Please cite the accompanying **manuscript or preprint** as the primary scholarly reference.
+Before journal publication, please cite the specific archived GitHub/Zenodo release corresponding to the manuscript version you used.
+After journal publication, please cite the final published article as the primary scholarly reference.
 
-> If you use this repository in academic work, please cite the accompanying manuscript or preprint as the primary scholarly reference. After journal publication, this citation information should be updated to the final published article.
+> If you use this repository in academic work before the paper is formally published, please cite the tagged release associated with the manuscript stage together with its Zenodo record. After journal publication, please cite the final published article as the primary scholarly reference.
 
 A machine-readable citation file is included in `CITATION.cff`.
 
@@ -122,3 +123,4 @@ This repository does **not** claim universal quantitative fitting across assay p
 ## License
 
 This project is released under the MIT License. See `LICENSE`.
+
