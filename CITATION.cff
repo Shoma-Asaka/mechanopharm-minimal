@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the accompanying manuscript or preprint as the primary scholarly reference. After journal publication, update the citation to the final published article."
+message: "If you use this repository before the paper is formally published, please cite the specific archived software release. After journal publication, please cite the final published article as the primary scholarly reference."
 title: "mechanopharm-minimal"
-abstract: "Minimal reference implementation of a theoretical framework for mechanopharmacology, including two-state and three-state adaptive-protection models and response-landscape analysis utilities."
+abstract: "Minimal reference implementation of a thermodynamically constrained mechanopharmacology framework, including two-state redistribution, protected-state extension, and response-fingerprint analysis utilities."
 type: software
 authors:
   - family-names: "Asaka"
@@ -9,11 +9,15 @@ authors:
     affiliation: "Faculty of Medical Sciences, University of Fukui"
 repository-code: "https://github.com/Shoma-Asaka/mechanopharm-minimal"
 license: "MIT"
+version: "0.2.0"
 preferred-citation:
-  type: manuscript
+  type: software
   authors:
     - family-names: "Asaka"
       given-names: "Shoma"
-  title: "A Theoretical State-Dynamics Framework for Mechanopharmacology: Response Landscapes in Concentration, Mechanics, and Time"
+  title: "mechanopharm-minimal"
+  version: "0.2.0"
+  doi: "[ZENODO_DOI_FOR_V0.2.0]"
+  url: "https://github.com/Shoma-Asaka/mechanopharm-minimal/releases/tag/v0.2.0"
   year: 2026
-  notes: "Accompanying manuscript or preprint. Replace with a preprint DOI when available, and update to the final published article after acceptance."
+  notes: "Use this archived software release as the primary citation until the journal article is formally published. After publication, update the preferred citation to the final published article."
