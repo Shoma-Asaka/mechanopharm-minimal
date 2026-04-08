@@ -17,7 +17,7 @@ preferred-citation:
       given-names: "Shoma"
   title: "mechanopharm-minimal"
   version: "0.2.0"
-  doi: "[ZENODO_DOI_FOR_V0.2.0]"
+  doi: "https://doi.org/10.5281/zenodo.19462822"
   url: "https://github.com/Shoma-Asaka/mechanopharm-minimal/releases/tag/v0.2.0"
   year: 2026
   notes: "Use this archived software release as the primary citation until the journal article is formally published. After publication, update the preferred citation to the final published article."
