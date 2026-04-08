@@ -1,3 +1,0 @@
-Code availability
-
-A minimal reference implementation of the theoretical framework developed in this study is publicly available at GitHub [URL] and archived at Zenodo [DOI]. The repository includes implementations of the two-state model, the three-state adaptive-protection model, and example routines for response-landscape fingerprint extraction. The version corresponding to this manuscript is [VERSION]. Citation information in the repository currently points to the accompanying manuscript or preprint and will be updated to the final published article after journal publication.
