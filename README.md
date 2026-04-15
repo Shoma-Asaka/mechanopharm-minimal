@@ -66,7 +66,6 @@ mechanopharm_minimal/
   plotting.py
 examples/
   demo_minimal.py
-  manuscript_code_availability.txt
 notebooks/
   reproduce_figures.ipynb
 outputs/
