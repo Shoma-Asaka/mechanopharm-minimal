@@ -34,7 +34,10 @@ Not included:
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+pip install -e .
 ```
+
+On Windows PowerShell, use `.venv\Scripts\Activate.ps1` instead of `source .venv/bin/activate`.
 
 ## Minimal usage
 
@@ -44,11 +47,13 @@ python examples/demo_minimal.py
 
 This generates example outputs in `outputs/`.
 
+The notebook in `notebooks/reproduce_figures.ipynb` is designed to run in both Google Colab and ordinary Jupyter environments. Its final archive/download cell creates `figures.zip`; in non-Colab environments, the zip file is left in the working directory for manual download.
+
 ## Minimal workflow for an experimental dataset
 
 Assume you have endpoint measurements on a grid of concentration `c` and mechanical condition `m`, with optional time courses.
 
-1. Arrange endpoint data as a matrix `E[c_index, m_index]` or as a tidy table.
+1. Arrange endpoint data as a matrix `E[m_index, c_index]` or as a tidy table, where rows correspond to mechanical conditions and columns correspond to concentrations.
 2. Use `fingerprints.ec50_vs_m(...)` to quantify mechanical dose–response shifts.
 3. Use `fingerprints.find_mechanical_optima(...)` to test for interior optima.
 4. Use `fingerprints.peak_metrics_by_condition(...)` on time-course data to extract peak amplitude and peak time.
@@ -99,7 +104,7 @@ Suggested figure-to-code mapping:
 
 ## Citation
 
-Before journal publication, please cite the specific archived GitHub/Zenodo release corresponding to the manuscript version you used.
+Before journal publication, please cite the specific archived GitHub/Zenodo release corresponding to the manuscript version you used. For this first-post-review revised submission release, cite `v0.3.0` and its Zenodo record.
 After journal publication, please cite the final published article as the primary scholarly reference.
 
 > If you use this repository in academic work before the paper is formally published, please cite the tagged release associated with the manuscript stage together with its Zenodo record. After journal publication, please cite the final published article as the primary scholarly reference.
@@ -109,11 +114,12 @@ A machine-readable citation file is included in `CITATION.cff`.
 ## Versioning
 
 A tagged release should be created for each manuscript stage, for example:
-- `v0.1.0` — submission version
-- `v0.2.0` — revised version
+- `v0.1.0` — initial submission version
+- `v0.2.0` — internal revised-version maintenance release
+- `v0.3.0` — first-post-review revised submission release
 - `v1.0.0` — accepted/publication version
 
-For manuscript submission, cite the specific tagged release associated with that version of the paper.
+For manuscript submission or revision, cite the specific tagged release associated with that version of the paper.
 
 ## Important caution
 
