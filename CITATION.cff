@@ -9,7 +9,7 @@ authors:
     affiliation: "Faculty of Medical Sciences, University of Fukui"
 repository-code: "https://github.com/Shoma-Asaka/mechanopharm-minimal"
 url: "https://github.com/Shoma-Asaka/mechanopharm-minimal/releases/tag/v0.3.0"
-doi: "10.5281/zenodo.19462822"
+doi: "10.5281/zenodo.19435417"
 license: "MIT"
 version: "0.3.0"
 preferred-citation:
@@ -19,6 +19,6 @@ preferred-citation:
       given-names: "Shoma"
   title: "mechanopharm-minimal"
   version: "0.3.0"
-  doi: "10.5281/zenodo.19462822"
+  doi: "10.5281/zenodo.19435417"
   url: "https://github.com/Shoma-Asaka/mechanopharm-minimal/releases/tag/v0.3.0"
   year: 2026
