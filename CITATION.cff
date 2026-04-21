@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+cff-version: 0.3.0
 message: "If you use this repository before the paper is formally published, please cite the specific archived software release. After journal publication, please cite the final published article as the primary scholarly reference."
 title: "mechanopharm-minimal"
 abstract: "Minimal reference implementation of a thermodynamically constrained mechanopharmacology framework, including two-state redistribution, protected-state extension, and response-fingerprint analysis utilities."
