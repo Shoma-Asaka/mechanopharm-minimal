@@ -1,24 +1,26 @@
-cff-version: 0.3.0
-message: "If you use this repository before the paper is formally published, please cite the specific archived software release. After journal publication, please cite the final published article as the primary scholarly reference."
-title: "mechanopharm-minimal"
-abstract: "Minimal reference implementation of a thermodynamically constrained mechanopharmacology framework, including two-state redistribution, protected-state extension, and response-fingerprint analysis utilities."
-type: software
+[cite_start]cff-version: 1.2.0 [cite: 4]
+[cite_start]message: "If you use this repository before the paper is formally published, please cite the specific archived software release. After journal publication, please cite the final published article as the primary scholarly reference." [cite: 4]
+[cite_start]title: "mechanopharm-minimal" [cite: 5]
+[cite_start]abstract: "Minimal reference implementation of a thermodynamically constrained mechanopharmacology framework, including two-state redistribution, protected-state extension, and response-fingerprint analysis utilities." [cite: 5]
+[cite_start]type: software [cite: 6]
 authors:
-  - family-names: "Asaka"
-    given-names: "Shoma"
-    affiliation: "Faculty of Medical Sciences, University of Fukui"
-repository-code: "https://github.com/Shoma-Asaka/mechanopharm-minimal"
-url: "https://github.com/Shoma-Asaka/mechanopharm-minimal/tree/v0.3.0"
-doi: "10.5281/zenodo.19435417"
-license: "MIT"
-version: "0.3.0"
+  - [cite_start]family-names: "Asaka" [cite: 6]
+    [cite_start]given-names: "Shoma" [cite: 6]
+    [cite_start]affiliation: "Faculty of Medical Sciences, University of Fukui" [cite: 6]
+    orcid: "https://orcid.org/0009-0004-4030-2051"
+[cite_start]repository-code: "https://github.com/Shoma-Asaka/mechanopharm-minimal" [cite: 6]
+[cite_start]url: "https://github.com/Shoma-Asaka/mechanopharm-minimal/tree/v0.3.0" [cite: 6]
+[cite_start]doi: "10.5281/zenodo.19435417" [cite: 6]
+[cite_start]license: "MIT" [cite: 6]
+[cite_start]version: "0.3.0" [cite: 6]
 preferred-citation:
-  type: software
+  [cite_start]type: software [cite: 6]
   authors:
-    - family-names: "Asaka"
-      given-names: "Shoma"
-  title: "mechanopharm-minimal"
-  version: "0.3.0"
-  doi: "10.5281/zenodo.19435417"
-  url: "https://github.com/Shoma-Asaka/mechanopharm-minimal/tree/v0.3.0"
-  year: 2026
+    - [cite_start]family-names: "Asaka" [cite: 6]
+      [cite_start]given-names: "Shoma" [cite: 6]
+      orcid: "https://orcid.org/0009-0004-4030-2051"
+  [cite_start]title: "mechanopharm-minimal" [cite: 6]
+  [cite_start]version: "0.3.0" [cite: 6]
+  [cite_start]doi: "10.5281/zenodo.19435417" [cite: 6]
+  [cite_start]url: "https://github.com/Shoma-Asaka/mechanopharm-minimal/tree/v0.3.0" [cite: 6]
+  [cite_start]year: 2026 [cite: 6]
