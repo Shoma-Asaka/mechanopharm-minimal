@@ -111,16 +111,6 @@ After journal publication, please cite the final published article as the primar
 
 A machine-readable citation file is included in `CITATION.cff`.
 
-## Versioning
-
-A tagged release should be created for each manuscript stage, for example:
-- `v0.1.0` — initial submission version
-- `v0.2.0` — internal revised-version maintenance release
-- `v0.3.0` — first-post-review revised submission release
-- `v1.0.0` — accepted/publication version
-
-For manuscript submission or revision, cite the specific tagged release associated with that version of the paper.
-
 ## Important caution
 
 This repository does **not** claim universal quantitative fitting across assay platforms. Parameter calibration, measurement noise models, identifiability, and assay-specific mechanics-to-descriptor mapping remain system dependent.
